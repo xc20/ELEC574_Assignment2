@@ -37,8 +37,8 @@ Comment on how each of the features could inform on which activity is happening.
 ![](4.png)
 - The bar slope feature indicates the activity in the following ways: 
 - "stationary (0) ", "walking-flat-surface (1)", "running (5)": The bar slope has very small fluctuations around 0. There might be sharp change during the transition from one actitivy to another (e.g., from activity stationary to walking-flat-surface).
-- "elevator-up (4)": The bar slope feature is negative, and will fluctuate more with a peak period.
-- "elevator-down (6)": The bar slope feature is positive, and will fluctuate more with a peak period
+- "elevator-up (4)": The bar slope feature is negative, and fluctuates more with a peak period.
+- "elevator-down (6)": The bar slope feature is positive, and fluctuates more with a peak period.
 - "walking-up-stairs (2)": The bar slope has very small fluctuations but around a negative number.
 - "walking-down-stairs (3)": The bar slope has very small fluctuations but around a positive number.
 
