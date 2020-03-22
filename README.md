@@ -4,13 +4,12 @@
 
 Comment on how each of the data could inform on which activity is happening. Use your plots as a reference. [15 points]
 
+- According to the plot:
 ![](1.png)
 
-- According to the plot:
+- The activity "stationary (0) " can be indicated by the acceleration magnitude as well as barometer values. For instance, under the stationary status, the acceleration magnitude has very small fluctuations (almost "flat"). The barometer data also tends to be stable (or "flat") during the stationary activity, which is also the indicator. However, one thing we need to notice is, simply using barometer data's flat pattern to distinguish stationary won't work well, since this flat pattern also exhibits during the activity "walking-flat-surface (1)".
 
-The activity "stationary (0) " can be indicated by the acceleration magnitude as well as barometer values. For instance, under the stationary status, the acceleration magnitude has very small fluctuations (almost "flat"). The barometer data also tends to be stable (or "flat") during the stationary activity, which is also the indicator. However, one thing we need to notice is, simply using barometer data's flat pattern to distinguish stationary won't work well, since this flat pattern also exhibits during the activity "walking-flat-surface (1)".
-
-The activity "stationary (1) " 
+- The activity "stationary (1) " 
 
 Your task will be to compute mean and variance of acceleration for each segment. [14 points]
 
