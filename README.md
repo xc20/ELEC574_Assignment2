@@ -1,16 +1,16 @@
 # ELEC574_Assignment2
 
-Deliverable 1 - Making Sense of the Data
+## Deliverable 1 - Making Sense of the Data
 
-Comment on how each of the data could inform on which activity is happening. Use your plots as a reference. [15 points]
+### Comment on how each of the data could inform on which activity is happening. Use your plots as a reference. [15 points]
 
-Your task will be to compute mean and variance of acceleration for each segment. [14 points]
+### Your task will be to compute mean and variance of acceleration for each segment. [14 points]
 
 - Please find the implementation in the uploaded code.
 
 Comment on how each of the features could inform on which activity is happening. Use your plots as a reference. [15 points]
 
-Deliverable 2 - Personal-dependent Model
+## Deliverable 2 - Personal-dependent Model
 
 Using the values in the confusion matrix to compute the precision, recall, and accuracy scores for each of the activities. [9 points]
 
