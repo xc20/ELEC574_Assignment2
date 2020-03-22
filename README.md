@@ -26,7 +26,7 @@ According to the plot below:
 
 Please find the implementation in the uploaded code.
 
-**Comment on how each of the features could inform on which activity is happening. Use your plots as a reference. [15 points] **
+**Comment on how each of the features could inform on which activity is happening. Use your plots as a reference. [15 points]**
 
 According to the plots below:
 
@@ -63,6 +63,6 @@ The bar slope feature indicates the activity in the following ways:
 
 **What are the top features? [10 points]**
 
-**Think about whether these features make sense or not. [10 points] **
+**Think about whether these features make sense or not. [10 points]**
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
