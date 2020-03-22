@@ -14,6 +14,8 @@ Comment on how each of the features could inform on which activity is happening.
 
 Using the values in the confusion matrix to compute the precision, recall, and accuracy scores for each of the activities. [9 points]
 
+## Deliverable 3 - Person-independent Model
+
 Calculate the precision, recall and accuracy scores for all activities. Compare this with the results from Deliverable 2, comment on the differences. [12 points]
 
 What are the top features? [10 points]
