@@ -43,13 +43,13 @@ The mean acceleration magnitude and its variance features indicate the activity 
 ![](3.png)
 
 The acceleration magnitude power band features indicate the activity as follows: 
-- "stationary (0) ": 
-- "walking-flat-surface (1)": 
-- "walking-up-stairs (2)": 
-- "walking-down-stairs (3)": 
-- "elevator-up (4)": 
-- "running (5)": 
-- "elevator-down (6)": 
+- "stationary (0) ": four equally-spaced band power features exhibit similar patterns - having the value around 0 and almost no fluctuation occurs.
+- "walking-flat-surface (1)": four equally-spaced band power feature values become larger compared to the activity "stationary (0) " and slightly fluctuate with a few spikes. Band power can indicate frequency patterns so this observation makes sense.
+- "walking-up-stairs (2)": four equally-spaced band power feature values are similar to their values in the activity "walking-flat-surface (1)" and fluctuates less compared to their patterns in the case "walking-flat-surface (1)".
+- "walking-down-stairs (3)": four equally-spaced band power feature values become larger compared to their values in case "walking-flat-surface (1)" and "walking-up-stairs (2)" and fluctuate more. Looking back on the original acceleration magnitude plot in Question 1, this pattern makes sense - during this activity, the acceleration magnitude is very noisy and changes a lot with high frequency.
+- "elevator-up (4)": four equally-spaced band power feature values become smaller near to 0 and stable. This is consistent with our observation that the original acceleration magnitude in this activity is not changing frequently (low frequency) and keeps relatively stable. 
+- "running (5)": four equally-spaced band power feature values become larger and fluctuate a lot. This pattern makes sense since in running activity, the original acceleration magnitude changes frequently and significantly with high frequency, which is validated by this power band patterns.
+- "elevator-down (6)": four equally-spaced band power feature values become smaller near to 0 and stable, with very few spikes. This can also be validated by the original acceleration magnitude plot, where original acceleration magnitude changes slightly and less frequently.
 
 ![](4.png)
 The bar slope feature indicates the activity in the following ways: 
