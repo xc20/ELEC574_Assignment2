@@ -11,7 +11,11 @@ Comment on how each of the data could inform on which activity is happening. Use
 
 - The activity "walking-flat-surface (1) " is also indicated by the acceleration magnitude as well as barometer values but by different patterns. During "walking-flat-surface (1)", the acceleration magnitude starts to fluctuate but barometer values have almost no fluctuations. Further, even though the barometer values "stay flat", the level where they stay flat might change, see the example: the time stamp 512 - 1279 with "walking-flat-surface" (1) vs. other time stamps with "walking-flat-surface (1)"
 
-- The activity "walking-up-stairs (2)"
+- The activity "walking-up-stairs (2)" is indicated by a) the the acceleration magnitude's fluctuations, with the simlar level of flucations to "walking-flat-surface (1) " and b) linear dropping of barometer values.
+
+- The activity "Walking-down-stairs (3)" is indicated by a) the the acceleration magnitude's fluctuations, with the simlar level of flucations to "walking-flat-surface (1) " and b) linear dropping of barometer values.
+
+- 
 
 Your task will be to compute mean and variance of acceleration for each segment. [14 points]
 
