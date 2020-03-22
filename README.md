@@ -33,14 +33,13 @@ Comment on how each of the features could inform on which activity is happening.
 ![](2.png)
 
 - The mean acceleration magnitude and its variance features indicate the activity in the following ways: 
-- "stationary (0) ":
-- "walking-flat-surface (1)": The bar slope has very small fluctuations around 0. There might be sharp change during the transition from one actitivy to another (e.g., from activity stationary to walking-flat-surface).
-- "walking-up-stairs (2)": The bar slope has very small fluctuations but around a negative number.
-- "walking-down-stairs (3)": The bar slope has very small fluctuations but around a positive number.
-- "elevator-up (4)": The bar slope feature is negative, and fluctuates more with a peak period.
+- "stationary (0) ": The mean feature has very small fluctuations, staying around a small constant number and the pattern is flat; the variance feature also has very small fluctuations, staying around 0 and the pattern is flat.
+- "walking-flat-surface (1)": The mean feature starts to increase and fluctuate between 10 and 12 with the values higher than the feature in "stationary (0) " period; the variance feature also starts to increase and fluctuate, which is consistent with the severe acceleration fluctuation patterns we observe in the Question 1's plot above.
+- "walking-up-stairs (2)": The mean feature has similar pattern to the case "walking-flat-surface (1)", fluctuating around a similar value; the variance feature becomes more stable compared to "walking-flat-surface (1)", and fluctuates around a number between the case "stationary (0) " and the case "walking-flat-surface (1)".
+- "walking-down-stairs (3)": The mean feature fluctuates with the similar pattern to the case "walking-flat-surface (1)"; the variance feature values become larger and the curve becomes sharper with a peak period, which is consistent with our observation in Question 1's plot, where walking down stairs leads to high fluctuations of original acceleration magnitude data.
+- "elevator-up (4)": 
 - "running (5)": 
-- "elevator-down (6)": The bar slope feature is positive, and fluctuates more with a peak period.
-
+- "elevator-down (6)": 
 
 
 
