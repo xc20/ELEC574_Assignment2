@@ -2,7 +2,8 @@
 
 ## References ##
 [1] https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-
+[2] The code base in ELEC 574 website: https://github.com/comp-well-org/ubicomp2020Spring/tree/master/A2_Assignment
+[3] https://en.wikipedia.org/wiki/Precision_and_recall
 
 ## Deliverable 1 - Making Sense of the Data
 
