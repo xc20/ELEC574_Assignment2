@@ -9,6 +9,8 @@
 
 [4] https://scikit-learn.org/stable/
 
+[5] https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
 ## Deliverable 1 - Making Sense of the Data
 
 **Comment on how each of the data could inform on which activity is happening. Use your plots as a reference. [15 points]**
