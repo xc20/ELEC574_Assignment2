@@ -11,6 +11,10 @@
 
 [5] https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
 
+[6] https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.skew.html
+
+[7] https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.kurtosis.html
+
 ## Deliverable 1 - Making Sense of the Data
 
 **Comment on how each of the data could inform on which activity is happening. Use your plots as a reference. [15 points]**
