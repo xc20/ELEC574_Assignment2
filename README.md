@@ -63,6 +63,17 @@ The bar slope feature indicates the activity in the following ways:
 
 **Using the values in the confusion matrix to compute the precision, recall, and accuracy scores for each of the activities. [9 points]**
 
+The code for computing these metrics are integrated into five_fold_cross_validation function. See the code.
+
+Accuracy score: 86.5%
+- "stationary (0) ": precision 84.4%, recall 83.1%
+- "walking-flat-surface (1)": precision 83.1%, recall 91.4%
+- "walking-up-stairs (2)": precision 87.5%, recall 66.7%
+- "walking-down-stairs (3)": precision 92.3%, recall 88.9%
+- "elevator-up (4)": precision 90.0%, recall 84.4%
+- "running (5)": precision 100.0%, recall 100.0%
+- "elevator-down (6)": precision 88.9%, recall 88.9%
+
 ## Deliverable 3 - Person-independent Model
 
 **Calculate the precision, recall and accuracy scores for all activities. Compare this with the results from Deliverable 2, comment on the differences. [12 points]**
