@@ -116,3 +116,6 @@ The figure above is the between-subject feature visualization of the barometer s
 - "elevator-down (6)": The bar slope fluctuates a lot with spikes and is positive. It makes sense since the pattern is similar to the case "elevator-up (4)" but with opposite directions (it should be).
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
+We can make use of the additional sensor data available from the smartphones to enhance this classification model. For example, we can extract the rotational information from **gyroscope** data, such as pitch, yaw and roll to improve our model. This rotational inforamtion can enable fine-grained solutions to distinguish different walking behaviors. Also, the **magnetometer** data will be a good indicator of user walking directions, which will definitely help in discriminating different walking behaviors as well. Moreover, the **smartphone front-facing camera** will be a good sensor for this problem. If we ask the experimenter to hold the smartphone in a fixed manner, the captured videos can give us useful clues to walking directions, stationary or not information, and etc.
+
+In terms of the features, except from the mean and variance 
