@@ -107,5 +107,14 @@ The figure above shows the between-subject feature visualization of two band pow
 The "large value" and "large fluctuations" patterns can discriminate "running (5)" from others. The "small value" and "medium fluctuations" patterns can distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)". The "flat" and "small value" patterns can distinguish "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)". They are also informative since running (5) is a very intense activity, "walking-up-stairs (2)" and "walking-down-stairs (3)" are less intense, and the "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)" activities have the lowest intensity. This pattern is fully reflected by the band power's "high/low value" and "more/less fluctuations" as mentioned.
 
 ![](7.png)
+The figure above is the between-subject feature visualization of the barometer slope feature. It is also an informative feature, specifically under different activities:
+
+- "stationary (0) ", "walking-flat-surface (1)": The bar slope has negligible fluctuations and is near to 0. It makes sense this the pressue won't change a lot during these activities.
+- "walking-up-stairs (2)": The bar slope decreases a lot and is negative (it should be); the feature also has fluctuations with small spikes. It makes sense since walking up should make the pressure decrease a lot.
+- "walking-down-stairs (3)": The bar slope increases a lot and is positive; there are also fluctuations with spikes. It also makes sense, similar to the case "walking-up-stairs (2)" but with opposite directions. 
+- "elevator-up (4)": The bar slope feature is negative, and fluctuates more with a peak period.
+- "elevator-down (6)": The bar slope feature is positive, and fluctuates more with a peak period.
+
+
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
