@@ -142,7 +142,7 @@ I believe the aforementioned sensors and features can help improve our current m
 
 **BONUS POINT (+50 points) Try classifying activities using 2 other different algorithms and compare the classification performance using precision, recall, and accuracy scores. Discuss which algorithm performs better than others.**
 
-- Algorithm 1: The same feature set with Random Forest Classifier (parameters: # estimator = 50, max_depth=5) [1].
+- Algorithm 1: The same feature set + Random Forest Classifier (parameters: # estimator = 50, max_depth=5) [1].
 
 The implementation is based on [1]. The idea of using Random Forest is that decision tree models can represent very limited non-linear patterns. As per our observation of the extracted features, they are informative for different activities but not fully linearly informative. So the decision tree model might not be sufficient. Random Forest creates bootstrapping dataset then selects while building each individual tree [1], which has stronger representation power of non-linearity. 
 
@@ -166,5 +166,7 @@ The implementation is based on [1]. The idea of using Random Forest is that deci
 - "running (5)": precision 100.0%, recall 100.0%
 - "elevator-down (6)": precision 38.9%, recall 100.0%
 
-Algorithm 2: 
+Algorithm 2: The extended feature set + PCA + Decision Tree Classifier
+
+
 
