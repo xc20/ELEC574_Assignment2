@@ -65,7 +65,7 @@ The bar slope feature indicates the activity in the following ways:
 
 The code for computing these metrics are integrated into five_fold_cross_validation function. See the code.
 
-Accuracy score: 86.5%
+- Model accuracy score: 86.5%
 - "stationary (0) ": precision 84.4%, recall 83.1%
 - "walking-flat-surface (1)": precision 83.1%, recall 91.4%
 - "walking-up-stairs (2)": precision 87.5%, recall 66.7%
