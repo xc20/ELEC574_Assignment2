@@ -97,8 +97,10 @@ According to the feature extraction function, the top features are: (1) the mean
 
 According to our analyses in Deliverable 1, they all make sense. Specifically:
 
-![](1.png)
-The figure above shows the between-subject feature visualization of mean and variance of acceleration magnitude.
+![](5.png)
+The figure above shows the between-subject feature visualization of mean and variance of acceleration magnitude. We find that the "flat" and "small value" patterns in the variance feature can discriminate well between "walking-flat-surface (1), stationary (0), "elevator-up (4)", "elevator-down (6)"" and other activities; its "small value" and "slight fluctuations" patterns can further distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)"; its "large value" and "large fluctuations" can discriminate "running (5)". Then, using the mean acceleration magnitude can further distinguish the aforementioned subgroups selected by the variance feature. Therefore, they are informative.
+
+![](6.png)
 
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
