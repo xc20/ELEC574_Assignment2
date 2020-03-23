@@ -183,13 +183,13 @@ In this method, we increase the original feature set to 14-dimensional, adding s
 - "elevator-down (6)": precision 27.8%, recall 21.7%
 
 **Person-independent model**
--  Accuracy score: 88.2%
-- "stationary (0) ": precision 93.8%, recall 83.3%
-- "walking-flat-surface (1)": precision 98.7%, recall 86.9%
-- "walking-up-stairs (2)": precision 93.8%, recall 85.7%
-- "walking-down-stairs (3)": precision 38.5%, recall 100.0%
-- "elevator-up (4)": precision 80.0%, recall 96.0%
-- "running (5)": precision 100.0%, recall 100.0%
-- "elevator-down (6)": precision 38.9%, recall 100.0%
+-  Accuracy score: 43.7%
+- "stationary (0) ": precision 18.8%, recall 38.7%
+- "walking-flat-surface (1)": precision 56.5%, recall 65.4%
+- "walking-up-stairs (2)": precision 28.1%, recall 19.6%
+- "walking-down-stairs (3)": precision 15.3%, recall 23.5%
+- "elevator-up (4)": precision 20.0%, recall 11.3%
+- "running (5)": precision 100.0%, recall 66.7%
+- "elevator-down (6)": precision 11.1%, recall 62.5%
 
 To sum up, we find that the original method outperforms the two new algorithms I proposed. I think the reason should be: this classification problem does not need complex non-linear models, and the original feature engineering already captures the informative patterns in sensor data. Adding more features or non-linearity to the model will confuse the classifier instead of improving it. A lesson I learnt from this algorithm exploration is - always start from simple and less non-linear models, and focus more on feature engineering and analysis. Only in this way, the model learnt will make sense and capture the key patterns within the original data.
