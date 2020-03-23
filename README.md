@@ -166,19 +166,19 @@ The implementation is based on [1]. The idea of using Random Forest is that deci
 - "running (5)": precision 100.0%, recall 100.0%
 - "elevator-down (6)": precision 38.9%, recall 100.0%
 
-Algorithm 2: The extended feature set + PCA + Decision Tree Classifier
+- Algorithm 2: The extended feature set + PCA + Decision Tree Classifier
 
 In this method, we increase the original feature set to 14-dimensional, adding skewness and kurtosis as additional features to describe acceleration distribution patterns. The key idea is to increase the number of features, followed by the PCA dimensionality reduction to reduce the correlated features to select the feature set. The implementation is based on [5, 6, 7]. We still use the decision tree classifier, the same as the original codes provide. The result is as the following:
 
 **Person-dependent model**
--  Accuracy score: 86.8%
-- "stationary (0) ": precision 87.5%, recall 84.8%
-- "walking-flat-surface (1)": precision 94.8%, recall 82.0%
-- "walking-up-stairs (2)": precision 84.4%, recall 96.4%
-- "walking-down-stairs (3)": precision 34.6%, recall 100.0%
-- "elevator-up (4)": precision 86.7%, recall 89.7%
-- "running (5)": precision 100.0%, recall 100.0%
-- "elevator-down (6)": precision 77.8%, recall 100.0%
+-  Accuracy score: 68.4%
+- "stationary (0) ": precision 76.6%, recall 87.5%
+- "walking-flat-surface (1)": precision 77.9%, recall 83.9%
+- "walking-up-stairs (2)": precision 37.5%, recall 40.0%
+- "walking-down-stairs (3)": precision 57.7%, recall 41.7%
+- "elevator-up (4)": precision 46.7%, recall 37.8%
+- "running (5)": precision 95.8%, recall 100.0%
+- "elevator-down (6)": precision 27.8%, recall 21.7%
 
 **Person-independent model**
 -  Accuracy score: 88.2%
