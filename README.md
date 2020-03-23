@@ -104,7 +104,7 @@ They are quite informative since while we do "walking-flat-surface (1), stationa
 
 ![](6.png)
 The figure above shows the between-subject feature visualization of two band power features. The top is the aggregated band power computed from the first equal-spaced frequency band and the bottom is the aggregated band power within the frequency 64-128. These two features exhibit similar patterns in discriminating different activities, but both informative. For example, 
-The "large value" and "large fluctuations" patterns can discriminate "running (5)" from others. The "small value" and "medium fluctuations" patterns can distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)". The "flat" and "small value" patterns can distinguish "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)". 
+The "large value" and "large fluctuations" patterns can discriminate "running (5)" from others. The "small value" and "medium fluctuations" patterns can distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)". The "flat" and "small value" patterns can distinguish "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)". They are also informative since running (5) is a very intense activity, "walking-up-stairs (2)" and "walking-down-stairs (3)" are less intense, and the "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)" activities have the lowest intensity. This pattern is fully reflected by the band power's "high/low value" and "more/less fluctuations" as mentioned.
 
 ![](7.png)
 
