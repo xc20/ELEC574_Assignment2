@@ -65,20 +65,30 @@ The bar slope feature indicates the activity in the following ways:
 
 The code for computing these metrics are integrated into five_fold_cross_validation function. See the code.
 
-- Model accuracy score: 86.5%
-- "stationary (0) ": precision 84.4%, recall 83.1%
-- "walking-flat-surface (1)": precision 83.1%, recall 91.4%
-- "walking-up-stairs (2)": precision 87.5%, recall 66.7%
-- "walking-down-stairs (3)": precision 92.3%, recall 88.9%
-- "elevator-up (4)": precision 90.0%, recall 84.4%
-- "running (5)": precision 100.0%, recall 100.0%
-- "elevator-down (6)": precision 88.9%, recall 88.9%
+- Model accuracy score: 87.1%
+- "stationary (0) ": precision 84.4%, recall 80.6%
+- "walking-flat-surface (1)": precision 83.1%, recall 90.8%
+- "walking-up-stairs (2)": precision 93.8%, recall 69.8%
+- "walking-down-stairs (3)": precision 96.2%, recall 96.2%
+- "elevator-up (4)": precision 90.0%, recall 90.0%
+- "running (5)": precision 91.7%, recall 95.7%
+- "elevator-down (6)": precision 94.4%, recall 94.4%
 
 ## Deliverable 3 - Person-independent Model
 
 **Calculate the precision, recall and accuracy scores for all activities. Compare this with the results from Deliverable 2, comment on the differences. [12 points]**
 
+- Model accuracy score: 90.5%
+- "stationary (0) ": precision 90.6%, recall 93.5%
+- "walking-flat-surface (1)": precision 87.0%, recall 96.4%
+- "walking-up-stairs (2)": precision 93.8%, recall 96.8%
+- "walking-down-stairs (3)": precision 96.2%, recall 58.1%
+- "elevator-up (4)": precision 93.3%, recall 87.5%
+- "running (5)": precision 100.0%, recall 96.0%
+- "elevator-down (6)": precision 88.9%, recall 100.0%
+
 **What are the top features? [10 points]**
+
 
 **Think about whether these features make sense or not. [10 points]**
 
