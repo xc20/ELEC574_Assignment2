@@ -135,5 +135,25 @@ I believe the aforementioned sensors and features can help improve our current m
 
 The implementation is based on [1]. The idea of using Random Forest that decision tree models can represent very limited non-linear patterns. As per our observation of the extracted features, they are informative for different activities but not linearly informative. So the decision tree model might not be sufficient. Random Forest creates bootstrapping dataset then selects while building each individual tree [1], which has stronger representation power of non-linearity. 
 
+** Person-dependent model **
+-  Accuracy score: 90.5%
+- "stationary (0) ": precision 90.6%, recall 93.5%
+- "walking-flat-surface (1)": precision 87.0%, recall 96.4%
+- "walking-up-stairs (2)": precision 93.8%, recall 96.8%
+- "walking-down-stairs (3)": precision 96.2%, recall 58.1%
+- "elevator-up (4)": precision 93.3%, recall 87.5%
+- "running (5)": precision 100.0%, recall 96.0%
+- "elevator-down (6)": precision 88.9%, recall 100.0%
+
+** Person-independent model **
+-  Accuracy score: 88.2%
+- "stationary (0) ": precision 93.8%, recall 83.3%
+- "walking-flat-surface (1)": precision 98.7%, recall 86.9%
+- "walking-up-stairs (2)": precision 93.8%, recall 85.7%
+- "walking-down-stairs (3)": precision 38.5%, recall 100.0%
+- "elevator-up (4)": precision 80.0%, recall 96.0%
+- "running (5)": precision 100.0%, recall 100.0%
+- "elevator-down (6)": precision 38.9%, recall 100.0%
+
 Algorithm 2: 
 
