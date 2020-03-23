@@ -144,7 +144,7 @@ I believe the aforementioned sensors and features can help improve our current m
 
 - Algorithm 1: The same feature set + Random Forest Classifier (parameters: # estimator = 50, max_depth=5) [1].
 
-The implementation is based on [1]. The idea of using Random Forest is that decision tree models can represent very limited non-linear patterns. As per our observation of the extracted features, they are informative for different activities but not fully linearly informative. So the decision tree model might not be sufficient. Random Forest creates bootstrapping dataset then selects while building each individual tree [1], which has stronger representation power of non-linearity. 
+The implementation is based on [1]. The idea of using Random Forest is that decision tree models can represent very limited non-linear patterns. As per our observation of the extracted features, they are informative for different activities but not fully linearly informative. So the decision tree model might not be sufficient. Random Forest creates bootstrapping dataset then selects while building each individual tree [1], which has stronger representation power of non-linearity. The result is as the following:
 
 **Person-dependent model**
 -  Accuracy score: 86.8%
@@ -168,5 +168,26 @@ The implementation is based on [1]. The idea of using Random Forest is that deci
 
 Algorithm 2: The extended feature set + PCA + Decision Tree Classifier
 
+In this method, we increase the original feature set to 14-dimensional, adding skewness and kurtosis as additional features to describe acceleration distribution patterns. The key idea is to increase the number of features, followed by the PCA dimensionality reduction to reduce the correlated features to select the feature set. The implementation is based on [5, 6, 7]. We still use the decision tree classifier, the same as the original codes provide. The result is as the following:
 
+**Person-dependent model**
+-  Accuracy score: 86.8%
+- "stationary (0) ": precision 87.5%, recall 84.8%
+- "walking-flat-surface (1)": precision 94.8%, recall 82.0%
+- "walking-up-stairs (2)": precision 84.4%, recall 96.4%
+- "walking-down-stairs (3)": precision 34.6%, recall 100.0%
+- "elevator-up (4)": precision 86.7%, recall 89.7%
+- "running (5)": precision 100.0%, recall 100.0%
+- "elevator-down (6)": precision 77.8%, recall 100.0%
 
+**Person-independent model**
+-  Accuracy score: 88.2%
+- "stationary (0) ": precision 93.8%, recall 83.3%
+- "walking-flat-surface (1)": precision 98.7%, recall 86.9%
+- "walking-up-stairs (2)": precision 93.8%, recall 85.7%
+- "walking-down-stairs (3)": precision 38.5%, recall 100.0%
+- "elevator-up (4)": precision 80.0%, recall 96.0%
+- "running (5)": precision 100.0%, recall 100.0%
+- "elevator-down (6)": precision 38.9%, recall 100.0%
+
+To sum up, we find that the original method outperforms the two new algorithms I proposed. I think the reason should be: this classification problem does not need complex non-linear models, and the original feature engineering already captures the informative patterns in sensor data. Adding more features or non-linearity to the model will confuse the classifier instead of improving it. A lesson I learnt from this algorithm exploration is - always start from simple and less non-linear models, and focus more on feature engineering and analysis. Only in this way, the model learnt will make sense and capture the key patterns within the original data.
