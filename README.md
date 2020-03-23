@@ -133,7 +133,7 @@ I believe the aforementioned sensors and features can help improve our current m
 
 - Algorithm 1: The same feature set with Random Forest Classifier.
 
-The implementation is based on [1]. The idea of using Random Forest that decision tree models can represent limited non-linear patterns. Random Forest leverages bootstrapping and 
+The implementation is based on [1]. The idea of using Random Forest that decision tree models can represent very limited non-linear patterns. As per our observation of the extracted features, they are informative for different activities but not linearly informative. So the decision tree model might not be sufficient. Random Forest creates bootstrapping dataset then selects while building each individual tree [1], which has stronger representation power of non-linearity. 
 
 Algorithm 2: 
 
