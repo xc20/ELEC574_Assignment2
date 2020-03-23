@@ -97,6 +97,8 @@ According to the feature extraction function, the top features are: (1) the mean
 
 According to our analyses in Deliverable 1, they all make sense. Specifically:
 
+![](1.png)
+The figure above shows the between-subject feature visualization of mean and variance of acceleration magnitude.
 
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
