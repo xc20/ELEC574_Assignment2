@@ -1,7 +1,7 @@
 # ELEC574_Assignment2
 
 ## References ##
-[1] https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+[1] https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
 
 ## Deliverable 1 - Making Sense of the Data
