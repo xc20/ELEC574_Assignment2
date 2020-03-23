@@ -128,3 +128,12 @@ In terms of new features, except mean and variance of the acceleration magnitude
 Another category of feature I can come up with is the **"synthesized feature", such as the features formed from PCA**. As mentioned, we can extract as many features as possible but they may be highly correlated. So we should further "preprocess" them to obtain new, synthesized, uncorrelated, and informative features. The feature set extracted by PCA is one example. Another example can be **the features obtained from pretrained neural networks**, such as autoencoders, by feeding our extracted features into these networks. 
 
 I believe the aforementioned sensors and features can help improve our current model. 
+
+**BONUS POINT (+50 points) Try classifying activities using 2 other different algorithms and compare the classification performance using precision, recall, and accuracy scores. Discuss which algorithm performs better than others.**
+
+- Algorithm 1: The same feature set with Random Forest Classifier.
+
+The implementation is based on [1]. The idea of using Random Forest that decision tree models can represent limited non-linear patterns. Random Forest leverages bootstrapping and 
+
+Algorithm 2: 
+
