@@ -1,5 +1,7 @@
 # ELEC574_Assignment2
 
+I certify that all solutions are entirely in my words and I have credited all sources in this submission.
+
 ## References ##
 [1] https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
