@@ -166,9 +166,9 @@ The implementation is based on [1]. The idea of using Random Forest is that deci
 - "running (5)": precision 100.0%, recall 100.0%
 - "elevator-down (6)": precision 38.9%, recall 100.0%
 
-- Algorithm 2: The extended feature set + PCA + Decision Tree Classifier
+- Algorithm 2: The extended feature set + PCA (to 10-dimensional components) + Decision Tree Classifier
 
-In this method, we increase the original feature set to 14-dimensional, adding skewness and kurtosis as additional features to describe acceleration distribution patterns. The key idea is to increase the number of features, followed by the PCA dimensionality reduction to reduce the correlated features to select the feature set. The implementation is based on [5, 6, 7]. We still use the decision tree classifier, the same as the original codes provide. The result is as the following:
+In this method, we increase the original feature set to 14-dimensional, adding skewness and kurtosis as additional features to describe acceleration distribution patterns. The key idea is to increase the dimension of features, followed by the PCA dimensionality reduction (to 10 principle components that account for over 99% of variance) to reduce the correlated features to select a better feature set. The implementation is based on [5, 6, 7]. We still use the decision tree classifier, the same as the original codes provide. The result is as the following:
 
 **Person-dependent model**
 -  Accuracy score: 68.4%
