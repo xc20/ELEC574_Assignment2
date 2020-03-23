@@ -112,9 +112,7 @@ The figure above is the between-subject feature visualization of the barometer s
 - "stationary (0) ", "walking-flat-surface (1)": The bar slope has negligible fluctuations and is near to 0. It makes sense this the pressue won't change a lot during these activities.
 - "walking-up-stairs (2)": The bar slope decreases a lot and is negative (it should be); the feature also has fluctuations with small spikes. It makes sense since walking up should make the pressure decrease a lot.
 - "walking-down-stairs (3)": The bar slope increases a lot and is positive; there are also fluctuations with spikes. It also makes sense, similar to the case "walking-up-stairs (2)" but with opposite directions. 
-- "elevator-up (4)": The bar slope feature is negative, and fluctuates more with a peak period.
-- "elevator-down (6)": The bar slope feature is positive, and fluctuates more with a peak period.
-
-
+- "elevator-up (4)": The bar slope fluctuates a lot with spikes and is negative, which is consistent with the case "walking-up-stairs (2)" and common sense, where moving up correspond to decreasing barometer values.
+- "elevator-down (6)": The bar slope fluctuates a lot with spikes and is positive. It makes sense since the pattern is similar to the case "elevator-up (4)" but with opposite directions (it should be).
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
