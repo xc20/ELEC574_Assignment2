@@ -101,6 +101,9 @@ According to our analyses in Deliverable 1, they all make sense. Specifically:
 The figure above shows the between-subject feature visualization of mean and variance of acceleration magnitude. We find that the "flat" and "small value" patterns in the variance feature can discriminate well between "walking-flat-surface (1), stationary (0), "elevator-up (4)", "elevator-down (6)"" and other activities; its "small value" and "slight fluctuations" patterns can further distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)"; its "large value" and "large fluctuations" can discriminate "running (5)". Then, using the mean acceleration magnitude can further distinguish the aforementioned subgroups selected by the variance feature. Therefore, they are informative.
 
 ![](6.png)
+The figure above shows the between-subject feature visualization of two band power features. The top is the aggregated band power computed from the first equal-spaced frequency band and the bottom is the aggregated band power within the frequency 64-128. These two features exhibit similar patterns in discriminating different activities, but both informative. For example, 
+The "large value" and "large fluctuations" patterns can discriminate "running (5)" from others. The "small value" and "medium fluctuations" patterns can distinguish "walking-up-stairs (2)" and "walking-down-stairs (3)". The "flat" and "small value" patterns can distinguish "stationary (0), walking-flat-surface (1), "elevator-up (4)", "elevator-down (6)". 
 
+![](7.png)
 
 **Discuss which other sensors and features help classifying these activities more accurately. [15 points]**
