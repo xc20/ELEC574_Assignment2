@@ -89,7 +89,7 @@ The code for computing these metrics are integrated into five_fold_cross_validat
 
 **What are the top features? [10 points]**
 
-The feature selection output is [ True True True False False False False False False False False False True True]
+The feature selection output is [True True True False False False False False False False False False True True]
 
 According to the feature extraction function, the top features are: (1) the mean magnitude of acceleration, (2) the variance of acceleration, (3) the band power aggregated within the first equal-space band, (4) the aggreated band power within frequency range 64-128, and (5) the slope of the pressure.
 
